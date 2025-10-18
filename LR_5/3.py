@@ -1,0 +1,5 @@
+fio_vvod = input("Введите ФИО через пробел: ")
+familia, imya, otchestvo = fio_vvod.split()
+print("Фамилия:", familia.upper())
+print("Имя:", imya.upper())
+print("Отчество:", otchestvo.upper())

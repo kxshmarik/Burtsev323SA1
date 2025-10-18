@@ -1,0 +1,5 @@
+text = input("Введите произвольный текст: ")
+zamena = input("Введите две строки для замены через пробел (что_заменить на_что_заменить): ")
+stroka1, stroka2 = zamena.split()
+itog = text.replace(stroka1, stroka2)
+print("Отформатированный текст:",itog)

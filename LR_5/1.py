@@ -1,0 +1,10 @@
+chislo1 = float(input("Введите первое число: "))
+chislo2 = float(input("Введите второе число: "))
+summa = chislo1 + chislo2
+raznost = chislo1 - chislo2
+proizvedenie = chislo1 * chislo2
+delenie = chislo1 / chislo2
+print("Сложение:", chislo1, "+", chislo2, "=", summa)
+print("Вычитание:", chislo1, "-", chislo2, "=", raznost)
+print("Умножение:", chislo1, "*", chislo2, "=", proizvedenie)
+print("Деление:", chislo1, "/", chislo2, "=", delenie)

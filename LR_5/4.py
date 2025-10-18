@@ -1,0 +1,7 @@
+print("Все числа ряда должны быть формата (0-9), (10-99) и т.п.")
+chisla = input("Введите 5 целых чисел через пробел: ")
+a, b, c, d, e = chisla.split( )
+max_num = max(a, b, c, d, e)
+min_num = min(a, b, c, d, e)
+print("Максимальное число: ", max_num)
+print("Минимальное число: ", min_num)
