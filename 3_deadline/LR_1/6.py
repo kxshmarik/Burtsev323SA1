@@ -8,6 +8,8 @@ def repeat():
                 func(*args, **kwargs)
         return wrapper
     return decorator
+
+# Использование
 @repeat()
 def privet(name):
     print(f"Привет, {name}!")
@@ -15,6 +17,7 @@ def privet(name):
 def bb(name):
     print(f"Всего доброго, {name}!")
 
+# Будет выполнено случайное количество раз
 privet("Вася")
 print()
 bb("Ашот")
